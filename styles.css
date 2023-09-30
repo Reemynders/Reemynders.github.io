@@ -1,0 +1,94 @@
+body {
+    font-family: 'Janna LT', sans-serif;
+    font-size: 21px; /* Adjust the base font size as needed */
+    line-height: 1.6;
+    margin: 8;
+    padding: 0;
+    direction: rtl; /* Set text direction to right-to-left */
+    text-align: center; /* Center-align text within the body */
+
+}
+
+.chapter-navigation {
+    background-color: #eee;
+    padding: 1em;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav.chapter-navigation {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-bottom: 3px; /* Add spacing between links */
+    display: inline;
+    margin-right: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center; /* Center-align the titles of chapters */
+}
+h1 {
+    text-align: center; /* Center-align the titles of chapters */
+}
+h5 {
+    text-align: center; /* Center-align the titles of chapters */
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    margin-bottom: 80px; /* Add margin to create space between content and footer */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stack links vertically on small screens */
+        align-items: center; /* Center-align items */
+    }
+
+    nav li {
+        margin:  15px 0; /* Add spacing between links */
+    }
+}
